@@ -1,0 +1,247 @@
+*{  
+  margin:0;
+  padding:0;
+}
+
+h1 {
+    margin-left: 0 15px;
+  font-size: 2em;
+  font-family: "Core Sans N W01 35 Light";
+  font-weight: normal;
+  margin: .67em 0;
+  display: block;
+    
+    
+}
+
+
+
+
+
+::-moz-selection {
+  background: #19547c;
+}
+::selection {
+  background: #19547c;
+}
+input::-moz-selection {
+  background: #037db6;
+}
+input::selection {
+  background: #037db6;
+}
+
+body{
+  color: #fff;
+  background-color:#f0f0f0;
+  font-family:helvetica;
+  
+  background:url('IMAGES/background.jpg') #0f2439 no-repeat center top;
+
+  background-size:     cover;                     
+  background-repeat:   no-repeat;
+}
+
+
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="value"]
+{
+  height:30px;
+  width:100%;;
+  display: inline-block;
+  vertical-align: middle;
+  height: 34px;
+  padding: 0 10px;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.7);
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+
+
+select:hover,
+textarea:hover,
+input[type="text"]:hover,
+input[type="password"]:hover,
+input[type="email"]:hover, 
+input[type="value"]:hover{
+  border-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+.btn {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 3px 0;
+  padding: 6px 20px;
+  font-size: 15px;
+  line-height: 20px;
+  height: 34px;
+  background-color: rgba(0, 0, 0, 0.15);
+  color: #00aeff;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 rgba(0, 0, 0, 0);
+  border-radius: 2px;
+  -webkit-transition: background-color 0.2s, box-shadow 0.2s, background-color 0.2s, border-color 0.2s, color 0.2s;
+  transition: background-color 0.2s, box-shadow 0.2s, background-color 0.2s, border-color 0.2s, color 0.2s;
+}
+
+
+
+.btn-primary {
+  background-color: #098cc8;
+  color: #ffffff;
+  border: 1px solid transparent;
+  box-shadow: 0 0 rgba(0, 0, 0, 0);
+  border-radius: 2px;
+  -webkit-transition: background-color 0.2s, box-shadow 0.2s, background-color 0.2s, border-color 0.2s, color 0.2s;
+  transition: background-color 0.2s, box-shadow 0.2s, background-color 0.2s, border-color 0.2s, color 0.2s;
+  background-image: -webkit-linear-gradient(top, #0f9ada, #0076ad);
+  background-image: linear-gradient(to bottom, #0f9ada, #0076ad);
+  border: 0;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(255, 255, 255, 0.15) inset;
+}
+
+
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-image: -webkit-linear-gradient(top, #37c0ff, #0097dd);
+  background-image: linear-gradient(to bottom, #37c0ff, #0097dd);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#indexlog{
+    width: 100px;
+    
+    float:right;
+    margin-right: 100px;
+    margin-top: auto
+}
+#indexsign{
+    height: 80px;
+    font-size: 40px;
+}
+
+
+
+
+.body-left{
+float: left;
+  height:100%;
+  width:500px;
+  margin-left:auto;
+  margin-right:auto; 
+  background: transparent;
+}
+
+.module{
+  position:relative;
+  top:10%;    
+  height:65%;
+  width:450px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.body-centre{
+    
+  position:relative;
+  top:300px;    
+  height:65%;
+  width:450px;
+  margin-left:auto;
+  margin-right:auto;
+}
+a{
+    text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 2px;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: cyan;
+}
+
+.menuout {
+    float:right;
+  background-color: #4CAF50;
+}
+
+
+.gallary:hover {
+ border: solid;
+    border-color:aqua;
+    border-width:2px;
+}
+.gallary{ border: solid;
+     border-color: white;
+    border-width: 1px;
+    height:300px;
+    width:300px;
+    margin:0px 3px;
+     
+}
+
+.card {
+      background:url('IMAGES/membership.jpg') #0f2439 no-repeat;
+   float:left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 5px 4px;
+  text-align: center;
+  font-family: arial;
+}
+.card:hover {
+ border: solid;
+    border-color:aqua;
+    border-width:1px;
+}
+#gallary{
+    border-width: 1px;
+    height:300px;
+    width:300px;
+    margin:0px 3px;
+    object-fit:scale-down;
+}
+        

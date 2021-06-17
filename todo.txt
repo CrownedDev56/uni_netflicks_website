@@ -1,0 +1,19 @@
+series page
+sesries description page{
+once seleced series image is selected it will displa everyy episode and their discription
+aswell as show their genre, rating and they will be able to click if they have watched it before
+display by genre
+}
+
+add a watched button, which will count the amount of times the series/movie has been watched by users
+admin page 
+settings page{
+
+allows the user to view change their details and see how much they have movies,
+ series and episodes they have watched, and a total, which will be based on series and movies watched
+allow them to upgrade their account type 
+}
+
+allow user to make suggestions
+
+display genre in movies and series pages
